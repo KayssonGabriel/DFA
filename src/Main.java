@@ -27,22 +27,24 @@ public class Main {
 
     //função backtraking recursiva
     private static int[] testar(String entrada, int[] estados, int posicao) {
+        if (entrada == null) return null;
         if (posicao == entrada.length()) {
             imprime(entrada, estados[0], posicao);
             if (aceita(estados)) {
                 return estados;
             }
-            System.out.println("<<bactrack>> Fim da cadeia");
+            System.out.println("<<backtrack>> Fim da cadeia");
             return null;
         }
-        //verificar
-        int elemento = Integer.parseInt(entrada.substring(posicao, posicao + 1));
+        char simbolo = entrada.charAt(posicao);
+        if (simbolo != '0' && simbolo != '1') return null;
+        int elemento = simbolo - '0';
         for (int i : estados) {
-            imprime(entrada, estados[0], posicao);
+            imprime(entrada, i, posicao);
             int[] novosEstados = transicoes[i][elemento];
             if (novosEstados.length == 0) {
-                System.out.println("<<bactrack>> Sem opcoes");
-                return null;
+                System.out.println("<<backtrack>> Sem opcoes");
+                continue;
             }
             int[] transicoes = testar(entrada, novosEstados, posicao + 1);
             if (transicoes != null) return transicoes;
