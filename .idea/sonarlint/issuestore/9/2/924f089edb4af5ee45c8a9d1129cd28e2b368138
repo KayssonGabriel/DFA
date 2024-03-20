@@ -1,0 +1,16 @@
+
+]
+java:S1220""Move this file to a named package.8Ëâµàå1J$77c1d650-1bed-437e-a3f7-4b218f308b44
+m	java:S106"+Replace this use of System.out by a logger.(ÊÊİ8áâµàå1J$15434a43-f63c-4810-b99b-2193646987e9
+m	java:S106"+Replace this use of System.out by a logger.(öøÃ•8ââµàå1J$836609f2-00de-4c92-a81f-dfc836c65d74
+r	java:S106#"+Replace this use of System.out by a logger.(‰ËÉâøÿÿÿÿ8äâµàå1J$6b787750-52ae-48a3-b6ba-c738cd45242d
+i
+java:S1168$"&Return an empty array instead of null.(¥¹ï8áâµàå1J$75d52e30-f04c-4daf-a834-962193fe274f
+m	java:S106,"+Replace this use of System.out by a logger.(ò¹òÓ8äâµàå1J$45932999-fbb1-4900-8a60-43fb34e82967
+i
+java:S1168-"&Return an empty array instead of null.(¥¹ï8ââµàå1J$d2c7bbbe-cc08-4e05-9013-4fdfd0c0bcb3
+i
+java:S11682"&Return an empty array instead of null.(¥¹ï8ãâµàå1J$881df0e6-b90b-4ef1-8135-263687b5a654
+m	java:S106B"+Replace this use of System.out by a logger.(ö·Ö8äâµàå1J$daabdcfc-f44a-4ea6-a8f2-d00c47740579
+m	java:S106C"+Replace this use of System.out by a logger.(æï¢¼8‘±¶àå1J$8a029bc0-64b6-4aea-85dd-259b909bbac3
+m	java:S106D"+Replace this use of System.out by a logger.(º¾ÎÇ8í«¸àå1J$2fd54cb2-c411-47c7-a560-40337c87369d
